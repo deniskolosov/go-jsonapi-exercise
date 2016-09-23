@@ -22,4 +22,4 @@ Application endpoints are:
 
 They represent following BD structure:
 
-![screenshot.jpg](https://raw.githubusercontent.com/thefivekey/go-jsonapi-exercise/master/screenshot.jpg)
+![screenshot.jpg](https://raw.githubusercontent.com/thefivekey/go-jsonapi-exercise/master/screenshot.png)
