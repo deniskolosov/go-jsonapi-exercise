@@ -56,6 +56,7 @@ func main() {
 	flag.StringVar(&port, "p", ":8080", "Port on which service will run")
 	flag.Parse()
 
+	http.HandleFunc("/posts", PostsHandler)
 	http.HandleFunc("/comments", CommentsHandler)
 	http.HandleFunc("/tags", TagsHandler)
 	fmt.Println("Running on port", port)
